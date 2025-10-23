@@ -1,0 +1,41 @@
+/* This file controls how your page looks */
+
+body {
+  background-color: #000000;   /* Page background color */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(7, 255, 7);            /* Text color */
+  font-size: 36px;             /* Size of heading */
+  text-align: center;          /* Center the heading */
+}
+
+p {
+  color: rgb(7, 255, 7);            /* Paragraph text color */
+  font-size: 20px;             /* Paragraph text size */
+  text-align: center;          /* Center paragraph */
+}
+
+button {
+  background-color: rgb(0, 116, 6);    /* Button color */
+  color: white;                /* Button text color */
+  padding: 10px 20px;          /* Inside space */
+  border: none;                /* Remove border */
+  border-radius: 6px;          /* Rounded corners */
+  cursor: pointer;             /* Hand cursor on hover */
+  margin: 5px;                 /* Space around buttons */
+  display: inline-block;       /* Keeps them side-by-side */
+}
+
+/* ✅ Center the image */
+img {
+  display: block;
+  margin: 20px auto;           /* Auto centers it horizontally */
+  border-radius: 10px;
+}
+
+/* ✅ Center all buttons together */
+body {
+  text-align: center;
+}
