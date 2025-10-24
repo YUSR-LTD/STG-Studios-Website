@@ -1,41 +1,34 @@
-/* This file controls how your page looks */
-
 body {
-  background-color: #000000;   /* Page background color */
+  background-color: #000000;
   font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, p {
+  color: rgb(7, 255, 7);  /* Apply green to all text elements */
 }
 
 h1 {
-  color: rgb(7, 255, 7);            /* Text color */
-  font-size: 36px;             /* Size of heading */
-  text-align: center;          /* Center the heading */
+  font-size: 36px;
 }
 
 p {
-  color: rgb(7, 255, 7);            /* Paragraph text color */
-  font-size: 20px;             /* Paragraph text size */
-  text-align: center;          /* Center paragraph */
+  font-size: 20px;
 }
 
 button {
-  background-color: rgb(0, 116, 6);    /* Button color */
-  color: white;                /* Button text color */
-  padding: 10px 20px;          /* Inside space */
-  border: none;                /* Remove border */
-  border-radius: 6px;          /* Rounded corners */
-  cursor: pointer;             /* Hand cursor on hover */
-  margin: 5px;                 /* Space around buttons */
-  display: inline-block;       /* Keeps them side-by-side */
+  background-color: rgb(0, 116, 6);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
 }
 
-/* ✅ Center the image */
 img {
   display: block;
-  margin: 20px auto;           /* Auto centers it horizontally */
+  margin: 20px auto;
   border-radius: 10px;
-}
-
-/* ✅ Center all buttons together */
-body {
-  text-align: center;
 }
