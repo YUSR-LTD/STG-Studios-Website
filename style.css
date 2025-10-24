@@ -1,19 +1,22 @@
 body {
   background-color: #000000;
   font-family: Arial, sans-serif;
-  text-align: center;
-}
-
-h1, h2, h3, p {
-  color: rgb(7, 255, 7);  /* Apply green to all text elements */
 }
 
 h1 {
+  color: rgb(7, 255, 7);
   font-size: 36px;
+  text-align: center;
+}
+
+h2, h3 {
+  color: rgb(7, 255, 7);  /* Add this line */
 }
 
 p {
+  color: rgb(7, 255, 7);
   font-size: 20px;
+  text-align: center;
 }
 
 button {
@@ -31,4 +34,8 @@ img {
   display: block;
   margin: 20px auto;
   border-radius: 10px;
+}
+
+body {
+  text-align: center;
 }
