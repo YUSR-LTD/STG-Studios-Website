@@ -9,10 +9,13 @@ h1 {
   text-align: center;
 }
 
-h2, h3 {
-  color: rgb(7, 255, 7);  /* Add this line */
+h2 {
+  color: rgb(7, 255, 7);
 }
 
+h3 {
+  color: rgb(7, 255, 7);
+}
 p {
   color: rgb(7, 255, 7);
   font-size: 20px;
