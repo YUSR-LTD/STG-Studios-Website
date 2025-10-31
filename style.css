@@ -42,3 +42,7 @@ img {
 body {
   text-align: center;
 }
+
+li {
+  color: rgb(7, 255, 7);
+}
